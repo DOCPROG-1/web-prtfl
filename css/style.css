@@ -1,0 +1,64 @@
+*{margin: 0;text-align: center;}
+header{
+    height: 100vh;
+    border-bottom: 2px solid #333 ;
+}
+.blackSpaceInHeader {
+    height: 25%;
+    color: #fff;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.welcome {
+    margin-bottom: 4%;
+    /* font-size: ; */
+}
+.titleIntro{
+    color: #333;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+.linkMyWorks{
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
+.linkMyWorks:hover{
+    transition: 0.5s;
+    color: #fff;
+    box-shadow:0 0 30px 7px #333;
+}
+main{
+    height: 100vh;
+}
+.contaierOfWorks{
+    margin-top: 4%;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    
+    height: 100px;
+    background-color: #333;
+}
+@media (max-width:500px) {
+    footer{
+    
+        height: 50px;
+        background-color: #333;
+    }
+    .titleIntro{
+        color: #333;
+        margin-bottom: 20%;
+        margin-top: 10%;
+    }    
+}
+
+
